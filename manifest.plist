@@ -14,6 +14,14 @@
 				   <!-- http或者https链接的ipa文件地址 -->
                    <string>http://download.999502.com/download/99彩票_99彩票_99彩票.ipa</string>
                </dict>
+		<dict>  
+                    <key>kind</key>  
+                    <string>dfull-size-image</string>  
+                    <key>needs-shine</key>  
+                    <true/>  
+                    <key>url</key>  
+                    <string>http://download.999502.com/images/logo.png</string>  
+                </dict> 
                <dict>
                    <key>kind</key>
                    <string>display-image</string>
@@ -22,7 +30,7 @@
                    <key>url</key>
 				   <!-- http或者https链接的小图片地址，可直接使用app对应的icon（分辨率没强制要求） -->
                    <string>http://download.999502.com/images/logo.png</string>
-               </dict>
+               </dict>	  
            </array>
            <key>metadata</key>
            <dict>
@@ -34,10 +42,8 @@
                <string>1.0.0</string>
                <key>kind</key>
                <string>software</string>
-               <key>subtitle</key>
-               <string>App Subtitle</string>
                <key>title</key>
-			   <!-- 安装app时的提示信息 -->
+		<!-- 安装app时的提示信息 -->
                <string>99彩票 正在安装中…</string>
            </dict>
        </dict>
